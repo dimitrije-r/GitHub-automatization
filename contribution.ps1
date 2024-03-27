@@ -3,7 +3,7 @@ if (!(Test-Path -Path $filePath -PathType Directory)) {
     New-Item -ItemType Directory -Path $filePath -Force
 }
 
-$repoDir = "C:\Users\Dimitrije\Documents\GitHub\GitHub-automatization"
+$repoDir = "C:\Users\Korisnik\Documents\GitHub\GitHub-automatization"
 $commitMessage = "Automatic commit from Windows Task Scheduler"
 
 # Text file generation
